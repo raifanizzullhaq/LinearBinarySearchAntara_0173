@@ -40,3 +40,15 @@ void linearSearch()  //membuat prosedur linearSearch
     //membuat looping untuk mencari element array menggunakan linear sort
     do
     {
+         cout << "\nMasukkan element yang ingin dicari";
+        cin >> item;
+
+        ctr = 0;
+        i = 0;
+
+        while (i < n) //step 3
+        {
+            ctr++;
+            if (arr[i] == item) //membuat kondisi jika data ditemukan
+            {
+                cout << "\n" << item << "ditemukan pada posisi ke " << (i + 
