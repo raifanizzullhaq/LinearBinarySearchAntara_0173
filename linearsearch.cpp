@@ -77,3 +77,11 @@ void display() //membuat prosedur display
         cout << arr[i] << "";
         cout << endl;
     }
+    }
+
+int main()
+{
+    input();
+    linearSearch();
+    display();
+}
