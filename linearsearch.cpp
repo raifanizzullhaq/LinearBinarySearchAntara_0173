@@ -20,3 +20,14 @@ void input()   //membuat prosedur input
             cout << "\nMinimum Jumlah element adalah 1 dan Maksimum Jumlah element adalah 20\n" << endl;
         }
     }
+      //display untuk menginputkan isi masing" element array
+    cout << "\n====================\n";
+    cout << "Masukkan element Array\n";
+    cout << "======================\n";
+
+    for (i = 0; i < n; i++)
+    {
+        cout << "<" << (i + 1) << "> ";
+        cin >> arr[i];
+    }
+}
