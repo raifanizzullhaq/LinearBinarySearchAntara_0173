@@ -31,3 +31,12 @@ void input()   //membuat prosedur input
         cin >> arr[i];
     }
 }
+void linearSearch()  //membuat prosedur linearSearch
+{
+    char ch; //inisialisasi variabel char ch untuk pilihan lanjut atau tidak
+    int ctr; //inisialisasi variable ctr untuk melihat jumlah data dibandingkan
+    int item; //inisialisasi variabel item untuk menginput data yang akan
+
+    //membuat looping untuk mencari element array menggunakan linear sort
+    do
+    {
