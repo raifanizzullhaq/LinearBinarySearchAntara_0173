@@ -69,3 +69,11 @@ void linearSearch()  //membuat prosedur linearSearch
     }
     while (ch == 'y' || ch == 'Y');
 }
+void display() //membuat prosedur display
+{
+    cout << "\nElement Array adalah : ";
+    for (i = 0; i < n; i++)
+    {
+        cout << arr[i] << "";
+        cout << endl;
+    }
