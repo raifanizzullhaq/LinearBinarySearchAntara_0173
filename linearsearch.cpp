@@ -52,3 +52,20 @@ void linearSearch()  //membuat prosedur linearSearch
             if (arr[i] == item) //membuat kondisi jika data ditemukan
             {
                 cout << "\n" << item << "ditemukan pada posisi ke " << (i + 
+                    1) << endl;
+                break;
+            }
+            i++; //step 4
+        }
+        if (i > n) //step 5
+        {
+            cout << "\n" << item << "Tidak ditemukan di dalam array";
+        }
+
+        cout << "\nJumlah Nilai dibandingkan = " << ctr << endl;
+
+        cout << "\nLanjut Ke Pencarian Lain ? (y/t)";
+        cin >> ch;
+    }
+    while (ch == 'y' || ch == 'Y');
+}
